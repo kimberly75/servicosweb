@@ -28,13 +28,13 @@ Para rodar o projeto e testar:
 - acessar as urls pelo postman;
 
 Mapping:
-GET - http://localhost:8080/home/ (não  precisa de autenticação)
-POST - http://localhost:8080/login/ (autenticação - username e password no body)
+- GET http://localhost:8080/home/ (não  precisa de autenticação)
+- POST http://localhost:8080/login/ (autenticação - username e password no body)
 
 Rotas protegidas (role única ADMIN - usuário padrão: admin password: password)
-find all - GET - http://localhost:8080/estacoes/
-find by id - GET -  http://localhost:8080/estacoes/{idEstacao}
-save - POST (objeto deve ser enviado no body) -  http://localhost:8080/estacoes/
-update - PUT -  http://localhost:8080/estacoes/{idEstacao}
-delete by id - DELETE -  http://localhost:8080/estacoes/{idEstacao}
+- find all GET http://localhost:8080/estacoes/
+- find by id GET http://localhost:8080/estacoes/{idEstacao}
+- save POST (objeto deve ser enviado no body) http://localhost:8080/estacoes/
+- update PUT http://localhost:8080/estacoes/{idEstacao}
+- delete by id DELETE  http://localhost:8080/estacoes/{idEstacao}
 
