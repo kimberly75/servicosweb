@@ -1,0 +1,20 @@
+#################################################
+Com base no modelo de API sugerido em aula, crie:
+1 - Especifique um cenário de aplicação e defina ao menos uma entidade, a ser representada por um respectivo POJO;
+2 - Escreva a tabela de rotas da API para manipulação desta entidade, com os respectivos parâmetros e retornos,
+	comentando o funcionamento quando necessário.
+3 - Usando o Node.js, implemente esta API. A persistência dos dados pode ser em memória.
+
+Entregue o zip com o projeto Node.js e a descrição da API.
+#################################################
+
+#Projeto - Spring Restful API
+
+- Model: possui a entidade utilizada;
+- DTO: possui o objeto que será recebido nas requisições; DTO pattern;
+- a classe REST controller possui o mapeamento das requisições;
+- A etidade é gerenciada pela interface que utiliza os repositórios do Spring Data JPA;
+
+Para rodar o projeto e testar:
+- Configurar maven e spring;
+- acessar as urls pelo postman;
