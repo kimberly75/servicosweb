@@ -1,4 +1,4 @@
-#################################################
+
 1
 Com base no modelo de API sugerido em aula, crie:
 1 - Especifique um cenário de aplicação e defina ao menos uma entidade, a ser representada por um respectivo POJO;
@@ -15,8 +15,6 @@ Para uma aplicação ainda melhor, pode-se criar dois ou mais papéis (roles) na
 Formato de entrega: github, com arquivo de documentação.
 
 EDIT: quem já fez autenticação com JWT, deve procurar outra forma de autenticação: framework Passport; OAuth2, com Google, Facebook ou Github.
-
-#################################################
 
 #Projeto - Spring Restful API
 
