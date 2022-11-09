@@ -1,4 +1,5 @@
 #################################################
+1
 Com base no modelo de API sugerido em aula, crie:
 1 - Especifique um cenário de aplicação e defina ao menos uma entidade, a ser representada por um respectivo POJO;
 2 - Escreva a tabela de rotas da API para manipulação desta entidade, com os respectivos parâmetros e retornos,
@@ -7,7 +8,7 @@ Com base no modelo de API sugerido em aula, crie:
 
 Entregue o zip com o projeto Node.js e a descrição da API.
 
-
+2
 Aplicar a autenticação por Token, de preferência JWT, na API. Exigir autenticação de todas as rotas que envolvam alteração de dados.
 Para uma aplicação ainda melhor, pode-se criar dois ou mais papéis (roles) na aplicação, exigindo-se autenticação de todas as rotas e somente permitindo alterações com o papel adequado. Por exemplo, user e admin: ambos acessam todas as rotas, porém só admin pode realizar as rotas de autenticação. Cuidar para retornar os status codes adequados para as rotas não autorizadas.
 
