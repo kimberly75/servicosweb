@@ -40,7 +40,3 @@ save - POST (objeto deve ser enviado no body) -  http://localhost:8080/estacoes/
 update - PUT -  http://localhost:8080/estacoes/{idEstacao}
 delete by id - DELETE -  http://localhost:8080/estacoes/{idEstacao}
 
-
-
-https://imasters.com.br/desenvolvimento/autenticacao-com-jwt-no-spring-boot
-
